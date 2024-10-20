@@ -1,0 +1,30 @@
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+class Sortstring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String string = sc.nextLine();
+        char[]str = string.toCharArray();
+        Arrays.sort(str);
+        String newstring = new String(str);
+        System.out.print(str);
+    }
+}
+//using function
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+class Sortstring {
+    static String sortstring(String s){
+        char[]str = s.toCharArray();
+        Arrays.sort(str);
+        return new String(str);
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String string = sc.nextLine();
+        String newstring = sortstring(string);
+        System.out.print(newstring);
+    }
+}
