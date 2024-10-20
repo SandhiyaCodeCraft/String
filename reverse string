@@ -1,0 +1,60 @@
+//using for loop
+import java.util.*;
+class Reversestring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String n = sc.nextLine();
+        String str =" ";
+        char ch;
+        for(int i=0;i<n.length();i++){
+            ch=n.charAt(i);
+            str=ch+str;
+        }
+        System.out.println(str);
+    }
+}
+//using stack
+import java.util.*;
+class Reversestring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String string = sc.nextLine();
+        char[]s = string.toCharArray();
+        Stack<Character> stack = new Stack<>();
+        for(char c:s){
+            stack.push(c);
+        }
+        String str =" ";
+        while(!stack.isEmpty()){
+            str+=stack.pop();
+        }
+        System.out.println(str);
+    }
+}
+//stringbuilder and stringbuffer
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+class Reversestring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String string = sc.nextLine();
+        StringBuffer str = new StringBuffer(string);
+        str.reverse();
+        System.out.println(str);
+    }
+}
+//by charArray
+import java.lang.*;
+import java.io.*;
+import java.util.*;
+class Reversestring {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String string = sc.nextLine();
+        char[]str = string.toCharArray();
+        for(int i=string.length()-1;i>=0;i--){
+          System.out.print(str[i]+" ");  
+        }
+    }
+}
