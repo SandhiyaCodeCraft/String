@@ -1,0 +1,2 @@
+s.indexOf(ch)-----give the first occuring index of ch
+s.lastIndexOf(ch)----give the last occuring index of ch
