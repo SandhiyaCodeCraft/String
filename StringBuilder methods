@@ -1,0 +1,6 @@
+StringBuildervariable.substring(index,index);//string also
+StringBuildervariable.reverse();
+StringBuildervariable.append();
+StringBuildervariable.insert(index,'ch');
+StringBuildervariable.length();//string also
+
