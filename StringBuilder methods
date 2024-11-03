@@ -3,4 +3,8 @@ StringBuildervariable.reverse();
 StringBuildervariable.append();
 StringBuildervariable.insert(index,'ch');
 StringBuildervariable.length();//string also
-
+StringBuildervariable.delete();/
+StringBuildervariable.indexOf();/
+StringBuildervariable.lastIndexOf();/
+StringBuildervariable.replace();/
+StringBuildervariable.charAt();/
